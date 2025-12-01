@@ -10,4 +10,12 @@ data <- read.csv("CanabisBenefits.csv", stringsAsFactors = FALSE)
 colnames(data)[4] <- "evidence_score"
 colnames(data)[5] <- "popular_interest"
 
-print<-head(data, 5)
+# Display basic information
+cat("CANNABIS BENEFITS STATISTICAL ANALYSIS")
+cat("Total health conditions analyzed:", nrow(data) )
+
+cat("Evidence Score Distribution: ")
+print(table(data$evidence_score))
+
+cat("\nPopular Interest Summary Statistic: ")
+print(summary(data$popular_interest))
