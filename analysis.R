@@ -31,4 +31,13 @@ boxplot(popular_interest ~ evidence_score,
         ylab = "Popular Interest (Google Searches)",
         border = "#404080",
         las = 1)
+# Add points to show individual data
+stripchart(popular_interest ~ evidence_score, 
+           data = data,
+           vertical = TRUE,
+           method = "jitter",
+           add = TRUE,
+           pch = 16,
+           col = rgb(64/255, 64/255, 128/255, 0.5),
+           jitter = 0.2)
 
