@@ -40,4 +40,25 @@ stripchart(popular_interest ~ evidence_score,
            pch = 16,
            col = rgb(64/255, 64/255, 128/255, 0.5),
            jitter = 0.2)
+dev.off()
+
+cat("Boxplot saved: evidence_vs_interest_boxplot.png\n")
+
+# VISUALIZATION 2: Histogram
+cat("Creating histogram...\n")
+
+png("popular_interest_histogram.png", width = 800, height = 600, res = 100)
+
+hist(data$popular_interest,
+     breaks = 30,
+     col = "#69b3a2",
+     border = "black",
+     main = "Distribution of Popular Interest in Cannabis Health Benefits",
+     xlab = "Popular Interest (Google Searches)",
+     ylab = "Frequency (Number of Conditions)",
+     las = 1)
+
+dev.off()
+
+cat("Histogram saved: popular_interest_histogram.png\n")
 
