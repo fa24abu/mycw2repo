@@ -80,3 +80,30 @@ if (kruskal_test$p.value < 0.05) {
   cat("Conclusion: There is NO significant difference in popular interest\n")
   cat("            across different evidence score levels.\n")
 }
+
+# CORRELATION ANALYSIS: Spearman's Rank Correlation
+cat("\n=== CORRELATION ANALYSIS ===\n")
+
+correlation <- cor.test(data$evidence_score, data$popular_interest, 
+                        method = "spearman",
+                        exact = FALSE)
+
+cat("Spearman's Rank Correlation Coefficient (ρ):", round(correlation$estimate, 3), "\n")
+cat("P-value:", round(correlation$p.value, 3), "\n\n")
+
+if (abs(correlation$estimate) < 0.3) {
+  strength <- "weak"
+} else if (abs(correlation$estimate) < 0.7) {
+  strength <- "moderate"
+} else {
+  strength <- "strong"
+}
+
+cat("Interpretation:", strength, "correlation\n")
+
+if (correlation$p.value < 0.05) {
+  cat("Result: Statistically significant correlation (p < 0.05)\n")
+} else {
+  cat("Result: No statistically significant correlation (p >= 0.05)\n")
+}
+
