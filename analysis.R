@@ -107,3 +107,36 @@ if (correlation$p.value < 0.05) {
   cat("Result: No statistically significant correlation (p >= 0.05)\n")
 }
 
+# SUMMARY STATISTICS BY EVIDENCE SCORE
+cat("\n=== SUMMARY STATISTICS BY EVIDENCE SCORE ===\n")
+
+# Calculate summary statistics manually (without dplyr)
+evidence_levels <- unique(data$evidence_score)
+evidence_levels <- sort(evidence_levels)
+
+summary_stats <- data.frame(
+  evidence_score = integer(),
+  Count = integer(),
+  Mean_Interest = numeric(),
+  Median_Interest = numeric(),
+  SD_Interest = numeric(),
+  Min_Interest = numeric(),
+  Max_Interest = numeric()
+)
+
+for (level in evidence_levels) {
+  subset_data <- data$popular_interest[data$evidence_score == level]
+  
+  summary_stats <- rbind(summary_stats, data.frame(
+    evidence_score = level,
+    Count = length(subset_data),
+    Mean_Interest = round(mean(subset_data), 0),
+    Median_Interest = round(median(subset_data), 0),
+    SD_Interest = round(sd(subset_data), 0),
+    Min_Interest = min(subset_data),
+    Max_Interest = max(subset_data)
+  ))
+}
+
+print(summary_stats)
+
