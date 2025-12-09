@@ -1,0 +1,14 @@
+=== CANNABIS BENEFITS STATISTICAL ANALYSIS ===
+Date: 2025-12-09 18:38:13 
+
+Total health conditions analyzed: 
+
+Evidence Score Distribution:
+
+Popular Interest Summary Statistics:
+
+=== STATISTICAL TEST: KRUSKAL-WALLIS H-TEST ===
+
+=== CORRELATION ANALYSIS ===
+
+=== SUMMARY STATISTICS BY EVIDENCE SCORE ===

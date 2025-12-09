@@ -146,3 +146,27 @@ cat("\n=== SAVING RESULTS ===\n")
 
 sink("analysis_results.txt")
 
+cat("=== CANNABIS BENEFITS STATISTICAL ANALYSIS ===\n")
+cat("Date:", format(Sys.time(), "%Y-%m-%d %H:%M:%S"), "\n\n")
+
+cat("Total health conditions analyzed:", nrow(data), "\n\n")
+
+cat("Evidence Score Distribution:\n")
+print(table(data$evidence_score))
+
+cat("\nPopular Interest Summary Statistics:\n")
+print(summary(data$popular_interest))
+
+cat("\n=== STATISTICAL TEST: KRUSKAL-WALLIS H-TEST ===\n")
+cat("Kruskal-Wallis H-statistic:", round(kruskal_test$statistic, 4), "\n")
+cat("P-value:", round(kruskal_test$p.value, 6), "\n")
+cat("Degrees of freedom:", kruskal_test$parameter, "\n\n")
+
+if (kruskal_test$p.value < 0.05) {
+  cat("Decision: REJECT the null hypothesis (p < 0.05)\n")
+} else {
+  cat("Decision: FAIL TO REJECT the null hypothesis (p >= 0.05)\n")
+}
+
+
+
