@@ -141,3 +141,8 @@ for (level in evidence_levels) {
 
 print(summary_stats)
 
+# SAVE RESULTS TO FILE
+cat("\n=== SAVING RESULTS ===\n")
+
+sink("analysis_results.txt")
+
