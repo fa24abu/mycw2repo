@@ -1,14 +1,35 @@
 === CANNABIS BENEFITS STATISTICAL ANALYSIS ===
-Date: 2025-12-09 18:38:13 
+Date: 2025-12-10 06:13:24 
 
-Total health conditions analyzed: 
+Total health conditions analyzed: 69 
 
 Evidence Score Distribution:
 
+ 0  1  2  3  4  5 
+ 6 41 13  3  4  2 
+
 Popular Interest Summary Statistics:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   3490  193000  412000  456238  524000 4830000 
 
 === STATISTICAL TEST: KRUSKAL-WALLIS H-TEST ===
+Kruskal-Wallis H-statistic: 14.2726 
+P-value: 0.013967 
+Degrees of freedom: 5 
 
-=== CORRELATION ANALYSIS ===
+Decision: REJECT the null hypothesis (p < 0.05)
 
-=== SUMMARY STATISTICS BY EVIDENCE SCORE ===
+======================================================================
+ANALYSIS COMPLETE!
+Files created:
+  1. evidence_vs_interest_boxplot.png
+  2. popular_interest_histogram.png
+  3. analysis_results.txt
+
+Key Results:
+  • H-statistic: 14.27 
+  • P-value: 0.014 
+  • Correlation (<U+03C1>): 0.067 
+  • Decision: REJECT H0 
+
+All output files are in: C:/Users/ACER/Documents/hassan work/7COM1079-0901-2025 

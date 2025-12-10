@@ -168,5 +168,21 @@ if (kruskal_test$p.value < 0.05) {
   cat("Decision: FAIL TO REJECT the null hypothesis (p >= 0.05)\n")
 }
 
+# FINAL SUMMARY
+cat("\n", rep("=", 70), "\n", sep="")
+cat("ANALYSIS COMPLETE!\n")
+
+cat("Files created:\n")
+cat("  1. evidence_vs_interest_boxplot.png\n")
+cat("  2. popular_interest_histogram.png\n")
+cat("  3. analysis_results.txt\n\n")
+
+cat("Key Results:\n")
+cat("  • H-statistic:", round(kruskal_test$statistic, 2), "\n")
+cat("  • P-value:", round(kruskal_test$p.value, 4), "\n")
+cat("  • Correlation (ρ):", round(correlation$estimate, 3), "\n")
+cat("  • Decision:", ifelse(kruskal_test$p.value < 0.05, "REJECT H0", "FAIL TO REJECT H0"), "\n\n")
+
+cat("All output files are in:", getwd(), "\n")
 
 
