@@ -1,0 +1,233 @@
+commit 843e388030ecb2fae8ff53c2e77a5a8466122b5e
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Thu Dec 11 22:09:01 2025 +0000
+
+    Finalized the report by adding the reference
+
+commit 381c1bbc002cfaa294f08a1f766062a9fc27430d
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Thu Dec 11 01:05:58 2025 +0000
+
+    Conclusion added in word file
+
+commit 7c24b4935425964f199b023df0646040611ec4f1
+Author: ma25alf <ma25alf@herts.ac.uk>
+Date:   Wed Dec 10 06:58:02 2025 +0500
+
+    Analysis results updated in anaylsis result file and both R file and analysis file is completed
+
+commit 85022e2088bd67e99a7715b4115348eecccc91de
+Author: ma25alf <ma25alf@herts.ac.uk>
+Date:   Wed Dec 10 06:14:56 2025 +0500
+
+    final summary updated in R file
+
+commit 03c5edfcf73a3fafdca8967af3b514e9621855b2
+Author: sa25aja <sa25aja@herts.ac.uk>
+Date:   Tue Dec 9 18:43:43 2025 +0500
+
+    save results till correlation anaylsis done
+
+commit 8ec8d9659385142715fb406153d63c4ce4ca31fb
+Author: ma25alf <ma25alf@herts.ac.uk>
+Date:   Tue Dec 9 18:26:10 2025 +0500
+
+    discussion about github log output done and anaylsis portion is done in file
+
+commit 237a1dc8d0925dfd3aa59c1ddaf4bf3a88250d5f
+Author: ma25alf <ma25alf@herts.ac.uk>
+Date:   Tue Dec 9 18:01:13 2025 +0500
+
+    points for improvement and time management updeted in document file
+
+commit 43b542fe2021afeebab54d90113d882f3a40d2aa
+Author: ma25alf <ma25alf@herts.ac.uk>
+Date:   Tue Dec 9 17:54:22 2025 +0500
+
+    add evaluation in document file
+
+commit 119800afd20c1dda9cffb23fe267f907e30d144c
+Author: sa25aja <sa25aja@herts.ac.uk>
+Date:   Tue Dec 9 15:49:53 2025 +0500
+
+    Start saving results in analysis_result file
+
+commit f6b249713c3fbfed4f436a2f2ba707693a48ee1d
+Author: sa25aja <sa25aja@herts.ac.uk>
+Date:   Tue Dec 9 15:41:17 2025 +0500
+
+    Analysis including statistical test used and result updated
+
+commit 44b2bae08c6cbd217745806b79ecfbdcb8e357e6
+Author: sa25aja <sa25aja@herts.ac.uk>
+Date:   Tue Dec 9 15:29:30 2025 +0500
+
+    set document file in correct order
+
+commit 78032daa69f73c03498292499bd9e7d8b28641b2
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Tue Dec 9 10:17:18 2025 +0000
+
+    SUMMARY STATISTICS BY EVIDENCE SCORE
+
+commit a361d429a30bbec6b074ade3487487fe088da0af
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Fri Dec 5 23:57:41 2025 +0000
+
+    correlation analysis: spearman's rank correlation
+
+commit b1f50ef0999bbe8d0e6d5d579db42d01dcdd32d9
+Author: sa25aja <sa25aja@herts.ac.uk>
+Date:   Fri Dec 5 19:05:14 2025 +0500
+
+    kruskal-wallis test updated
+
+commit c34540a1dd7a0e710e1aec2c30b7216b043b059f
+Author: sa25aja <sa25aja@herts.ac.uk>
+Date:   Fri Dec 5 18:59:15 2025 +0500
+
+    kruskal-wallis test updated
+
+commit c3024bfd2c64da3db18450841ab53812ec8e8958
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Thu Dec 4 23:12:33 2025 +0000
+
+    STATISTICAL ANALYSIS
+
+commit 703ae22f937cfa70439262bdb661cb980c65c7f9
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Thu Dec 4 14:13:32 2025 +0000
+
+    rechecked group report - updated group member names, section 4 complete till now
+
+commit 9caba9e7c4b8b5ad167f94dc3e9cd03639d00d6b
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Thu Dec 4 14:03:40 2025 +0000
+
+    visualization-histogram and previous code rechecked, till now code is finalized
+
+commit 5e3bc379073cb2cd23299e17346386eb987bdef4
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Thu Dec 4 00:20:37 2025 +0000
+
+    Add points to show individual data
+
+commit 0f9dcb09bf891f25ac9a76156845941afb473385
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Wed Dec 3 23:59:33 2025 +0000
+
+    reviewed and 4.Analysis section done
+
+commit 2e5f804da7258289d5b8439d3a75b7eb4ce4e3c8
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Wed Dec 3 16:59:09 2025 +0000
+
+    Visualization1 has been added in CodeR file
+
+commit 80b45388d51aafbcdbeb933655823c15057898ab
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Wed Dec 3 16:52:33 2025 +0000
+
+    Visualization has been added in documentation
+
+commit 3cd19e5375bf4295eecb4eb937e105b550798108
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Tue Dec 2 22:59:57 2025 +0000
+
+    Display the Basic Information
+
+commit 2cd592e4e91e6d6de7de23847308e361bf6ce914
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Tue Dec 2 22:44:14 2025 +0000
+
+    Modified load data & Added clean column names
+
+commit 39217d2e50f1efa50a526cd48ebb1d731f6dc668
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Tue Dec 2 22:20:58 2025 +0000
+
+    Added Background Research in documentation
+
+commit fd77d18a2939cfd78a1afa6431ff497ca76497b1
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Tue Dec 2 21:54:25 2025 +0000
+
+    updated R file - loaded dataset
+
+commit 30dda0763e6c40e0cfb7cff7b7b7f5d2db0fa8ec
+Author: ah24agg <ah24agg@herts.ac.uk>
+Date:   Tue Dec 2 18:47:11 2025 +0000
+
+    Dataset Introduction
+
+commit fbc73d238533e42095323635a4230b32d1738d55
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Mon Dec 1 10:18:31 2025 +0000
+
+    display basic info, evidence score and interest summary
+
+commit 8a263e8cc739c889cee2f7c4fbe1155a58daf2a5
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Sun Nov 30 16:28:04 2025 +0000
+
+    loading dataset and renaming column names
+
+commit ce4e1c5257ab060a9bd2177bd59c5a325817ceb9
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Sun Nov 30 15:35:18 2025 +0000
+
+    final_group_report_Section_1_ complete
+
+commit 345bc498d7c427b5a4e75be570863f008437116d
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Wed Nov 26 22:38:34 2025 +0000
+
+    updated
+
+commit d50b48c501c362bf543368a38a0e3d63f881b4d7
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Wed Nov 26 22:33:38 2025 +0000
+
+    updated
+
+commit ac16de3545f22f5af414cdb9c047058c6962afa0
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Wed Nov 26 22:24:18 2025 +0000
+
+    dlted file
+
+commit 2160e8b5bdbc291faac6d79efed69c881d680f66
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Wed Nov 26 22:22:18 2025 +0000
+
+    dlted file
+
+commit c7a1f0e5f24a7fca08327ae90a1b5417fe3b61ac
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Wed Nov 26 22:17:25 2025 +0000
+
+    new file
+
+commit c80dc432e0ffc190719ba0657e0560b1444341be
+Author: ma25amp <ma25amp@herts.ac.uk>
+Date:   Wed Nov 26 11:32:08 2025 +0000
+
+    updated files
+
+commit 088cacfb70485548dbfad7837a5ade2853a420d7
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Fri Nov 21 19:18:43 2025 +0000
+
+    tempalte for CW2
+
+commit f86a460d5f5e168a4026746296b0c9d3de894413
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Thu Nov 20 11:14:50 2025 +0000
+
+    DS064 download files
+
+commit d8b10847db09eff0412bb3079abf2fc7af7c4538
+Author: fa24abu <fa24abu@herts.ac.uk>
+Date:   Thu Nov 20 10:55:13 2025 +0000
+
+    Initial commit
